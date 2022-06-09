@@ -601,7 +601,7 @@ function Home() {
               </Col>
             </Row>
             <p style={{ textAlign: "center" }}>
-              Software developed by Softulas, Call Us: 01316735962
+              Software developed by  Rafi bhuiyan & Imtiaz Nayeem Shawon
             </p>
           </Container>
         </div>
