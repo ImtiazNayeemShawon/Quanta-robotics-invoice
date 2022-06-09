@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { Container, Row, Col } from "react-grid-system";
 import "./Home.css";
 import ReactToPrint from "react-to-print";
+import logo from './img/logo.png';
+import qr from './img/qr.png';
 
 function Home() {
   const [value, setValue] = useState({
@@ -140,10 +142,11 @@ function Home() {
     <div style={{ alignItems: "center" }}>
       <div className="main" ref={(el) => (componentRef = el)}>
         <div className="header">
-          <div id="Bill-head">
+        <div id="Bill-head">
             <h2>Invoice/bill</h2>
           </div>
-
+          <img className="logo" src={logo}/>
+      <div className="Up-section"> 
           <div className="Adress">
             <p>
               <i className="fa fa-globe" style={{ color: "green" }}></i> 75/a
@@ -158,8 +161,11 @@ function Home() {
               <i className="fa fa-phone" style={{ color: "green" }}></i> Phone:
               01777401908, 01874280811
             </p>
-          </div>
-
+         </div>
+         <div className="qr">
+            <img className="qr" src={qr}/>
+         </div>
+      </div>
           <Container>
             <Row>
               <Col md={8}>

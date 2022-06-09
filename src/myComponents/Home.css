@@ -7,12 +7,28 @@ body {
   background-color: aliceblue;
   width: 690px;
   align-content: center;
-  margin-left: 300px;
-  margin-right: 300px;
+  /*margin-left: 300px;
+  margin-right: 300px;*/
+}
+.logo{
+  width: 200px;
+  height: 100px;
+  margin: 0;
+ 
+}
+.qr{
+  width: 100px;
+  height: 100px;
+  margin-left: 94px
 }
 
 .Adress {
   line-height: 2px;
+  
+}
+.Up-section{
+display: flex;
+
 }
 
 #Date {
