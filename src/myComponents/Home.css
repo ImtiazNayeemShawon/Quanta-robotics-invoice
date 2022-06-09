@@ -1,0 +1,169 @@
+body {
+  background-color: rgb(225, 225, 241);
+}
+
+.main {
+  padding: 20px;
+  background-color: aliceblue;
+  width: 690px;
+  align-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.Adress {
+  line-height: 2px;
+}
+
+#Date {
+  width: 100px;
+  background-color: aliceblue;
+  border: none;
+}
+
+#invoice-no {
+  width: 60px;
+  background-color: aliceblue;
+  border: none;
+}
+
+#bill-to {
+  background-color: aliceblue;
+  border: none;
+}
+
+#Bill-head h2 {
+  font-size: 20px;
+  background-color: #189b64;
+  width: 120px;
+  color: white;
+  border-bottom-right-radius: 12px;
+}
+
+.head-Column {
+  display: flex;
+  background-color: #ff914d;
+  text-align: center;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.head-Column p {
+  margin-left: 92px;
+}
+
+.footer p {
+  font-size: 12px;
+  line-height: 3px;
+}
+
+input {
+  height: 30px;
+  font-size: 17px;
+  text-align: center;
+}
+
+#total input {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #189b64;
+  color: #ffff;
+  width: 180px;
+}
+
+#description {
+  width: 220px;
+  border-right: #131411 solid 2px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+#qty {
+  width: 100px;
+  border-right: #131411 solid 2px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+#price {
+  width: 150px;
+  border-right: #131411 solid 2px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+#total {
+  width: 177px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+.column-2 input {
+  background-color: #ffc66e;
+}
+
+.column-4 input {
+  background-color: #ffc66e;
+}
+
+.column-6 input {
+  background-color: #ffc66e;
+}
+
+.column-8 input {
+  background-color: #ffc66e;
+}
+
+.column-10 input {
+  background-color: #ffc66e;
+}
+
+.column-12 input {
+  background-color: #ffc66e;
+}
+
+.column-14 input {
+  background-color: #ffc66e;
+}
+
+.column-16 input {
+  background-color: #ffc66e;
+}
+
+.printBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.printBtn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* for disableing the arrow on the number input */
+/* start */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* end */
